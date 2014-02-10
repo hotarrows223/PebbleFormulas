@@ -22,6 +22,10 @@ static void window_load(Window *window) {
   int num_a_items = 0;
 
   calc_menu_items[num_a_items++] = (SimpleMenuItem){
+    .title = "Definition Of Derivative",
+	.subtitle = "lim(x->a)(f(x)-f(a))/(x-a)"
+  };
+  calc_menu_items[num_a_items++] = (SimpleMenuItem){
     .title = "Product Rule",
 	.subtitle = "uv' + vu'"
   };
